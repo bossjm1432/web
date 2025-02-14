@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Michael Mediana</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="circle" style="width: 300px; height: 300px; top: 10%; left: 20%;"></div>
+        <div class="circle" style="width: 200px; height: 200px; top: 60%; left: 70%;"></div>
+        <div class="circle" style="width: 150px; height: 150px; top: 30%; left: 80%;"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Jm's Apparels</div>
+        <div class="nav-buttons">
+            <button class="theme-toggle" id="themeToggle">
+                <i class='bx bx-moon'></i>
+            </button>
+            <button class="cart-btn" id="cartBtn">
+                <i class='bx bx-cart'></i>
+                <span class="cart-count">0</span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="products-grid" id="productsGrid"></div>
+    </div>
+
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+            <button class="close-cart" id="closeCart">
+                <i class='bx bx-x'></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-total" id="cartTotal">Total: ₱0.00</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
